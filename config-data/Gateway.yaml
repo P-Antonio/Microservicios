@@ -18,13 +18,13 @@ spring:
         - id: Microservicios
           uri: lb://Microservicios
           predicates:
-            - path=/usuario/**
+            - Path=/usuario/**
         - id: Microservicios-carro
           uri: lb://Microservicios-carro
           predicates:
-            - path=/carro/**
+            - Path=/carro/**
         - id: Microservicios-moto
           uri: lb://Microservicios-moto
           predicates:
-            - path=/moto/**
+            - Path=/moto/**
         

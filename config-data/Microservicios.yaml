@@ -9,6 +9,7 @@ eureka:
     instance:
       instance-id: ${spring.aplication.name}:${spring.aplication.instance_id:${random.value}}
 
+
 resilience4j.circuitbreaker:
     instances:
         carrosCB:
